@@ -9,6 +9,8 @@ Route::get('/', function () {
 Route::get('/home',function(){
     echo'home';
 });
-Route::get('/blog',function(){
+Route::get('/view',function(){
+    echo 'blog';
+});Route::get('/blog',function(){
     echo 'blog';
 });
